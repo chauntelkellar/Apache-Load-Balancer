@@ -14,7 +14,7 @@ Web 3 - 192.168.121
 
 ---
 
-## APACHE LB Static IP and Network configuration.
+## Apache LB Static IP and Network configuration.
 
 1. I set the Apache Load Balancers hostname as apache-lb and added my IP to whitelist private IP range
 
@@ -152,6 +152,9 @@ tail -f /var/log/httpd/access_log
 
 2.  On the apache LB i used the curl command to see the response to the DNS name
 
-![Apache-Load-Balancer/images/webserver1](https://github.com/chauntelkellar/Apache-Load-Balancer/webserver1.png)
+Webserver 1 test :
+![images/webserver1.png](images/webserver1.png)
 
-![Apache-Load-Balancer/images/webserver3](https://github.com/chauntelkellar/Apache-Load-Balancer/webserver3.png)
+Webserver 3 test:
+
+![images/webserver3.png](images/webserver3.png)
