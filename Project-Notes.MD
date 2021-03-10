@@ -152,9 +152,9 @@ tail -f /var/log/httpd/access_log
 
 2.  On the apache LB i used the curl command to see the response to the DNS name
 
-Webserver 1 test :
+Webserver 1 test <br>
 ![images/webserver1.png](images/webserver1.png)
 
-Webserver 3 test:
+Webserver 3 test <br>
 
 ![images/webserver3.png](images/webserver3.png)
